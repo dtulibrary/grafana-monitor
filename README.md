@@ -20,3 +20,17 @@ _To collect metrics, telegraf can be used._
 Url: http:// :8086
 
 Access: direct
+
+
+You can also import the dashboard file in this repo 'dtu-dash.json'
+
+
+
+#### Raspberry Pi TV setup
+
+See this blog for detailed instructions:
+
+https://lescinskas.lt/blog/2015/11/29/raspberry-pi-monitoring-screens/
+
+`$ sudo apt-get install iceweasel unclutter xscreensaver`
+
