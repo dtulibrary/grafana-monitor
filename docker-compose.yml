@@ -3,6 +3,7 @@ version: '2'
 services:
 
   grafana:
+    restart: always
     image: grafana/grafana
     ports:
       - "3000:3000"
@@ -13,6 +14,7 @@ services:
         #- GF_SECURITY_ADMIN_USER=false
 
   influxdb:
+    restart: always
     image: influxdb 
     ports:
       - "8083:8083"
